@@ -1,0 +1,54 @@
+body{
+    background-image: url(imagens_trabalho/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Open Sans';
+    margin: 0 7% 0 7%;
+    color: white;
+}
+h1, h2 {font-weight: normal;}
+#logo {
+    font-family: Kanit;
+    font-size: 0.7vw;
+    line-height: 18px;
+}
+#links {
+    a {
+        text-align: center;
+        width: 20%;
+        padding: 10px 25px;
+    }
+    a:link, a:visited {
+        background-color: #797979;
+        color: #ffffff;
+        font-size: 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    a:hover, a:active {
+        background-color: #585858;
+    }
+}
+#logo {
+    width: 2vw;
+}
+#texto {
+    h1 {
+        font-size: 4vw;
+    }
+    p {
+        font-size: 1vw;
+    }
+}
+#divs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+        width: 27%;
+        font-size: 1.5vw;
+    }
+}
+/*display: 100%;
